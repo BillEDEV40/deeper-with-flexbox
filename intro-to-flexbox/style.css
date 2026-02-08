@@ -14,7 +14,6 @@ h1 {
 
 h2 {
   margin: 0 10px;
-  border-bottom: 1px solid gray;
 }
 
 h3 {
@@ -25,7 +24,14 @@ h3 {
 /* --- Groups & Items --- */
 
 .group {
+  display: flex;
+  flex-direction: column;
 }
 
 .item {
+  flex:1;
+  margin: 10px;
+}
+.item-double {
+  flex: 2;
 }
